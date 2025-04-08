@@ -1,0 +1,14 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "org.shondo.achievementdebugger.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "mixins": [
+    "DisplayInfoMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

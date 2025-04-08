@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "achievementdebugger",
+  "version": "${version}",
+  "name": "AchievementDebugger",
+  "description": "Allows you to see hidden achievements.",
+  "authors": [],
+  "contact": {},
+  "license": "GPL-3.0",
+  "icon": "assets/achievementdebugger/icon.png",
+  "environment": "client",
+  "entrypoints": {
+  },
+  "mixins": [
+    "achievementdebugger.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "minecraft": "${minecraft_version}"
+  }
+}
